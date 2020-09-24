@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background: url(static/images/aardappelen.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 180px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 15px;
+    display: inline-block;
+    line-height: 180px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: orange;
+    border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 75px;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 800px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: orange;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.buttons .btn{
+    margin-left: 25px;
+}
+
+.buttons button:hover{
+    background: orange;
+}
